@@ -1,5 +1,5 @@
 # NLP_ambistory-project
-Dataset: SemEval 2026 Task 5 — AmbiStory
+## Dataset: SemEval 2026 Task 5 — AmbiStory
 
 This project is part of the Introduction to Natural Language Processing course.
 The task is to predict the human-perceived plausibility score of a candidate word sense in an ambiguous short story.
@@ -15,7 +15,7 @@ and a human average plausibility score from 1 to 5.
 
 The system predicts a score between 1 and 5 for each input sample.
 
-Approach
+## Approach
 
 This project implements a simple supervised regression baseline:
 
@@ -34,7 +34,8 @@ Predictions are saved in JSONL format.
 
 This approach is lightweight, runs locally, and does not require external APIs.
 
-Project Structure
+## Project Structure
+
 NLP_ambistory-project/
 │
 ├── predict.py          # Main prediction script
@@ -45,7 +46,8 @@ NLP_ambistory-project/
 ├── dev.json            # Development dataset
 └── output.jsonl        # Generated prediction output
 
-Setup Instructions
+## Setup Instructions
+
 Clone the repository:
 
 git clone https://github.com/aishika-dev/NLP_ambistory-project.git
@@ -99,7 +101,7 @@ Accuracy Within Standard Deviation
 
 These metrics compare the model predictions with the human average plausibility scores in the development data.
 
-Dataset
+## Dataset
 
 The project uses JSON files containing story samples. Each sample includes:
 
