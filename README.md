@@ -46,21 +46,21 @@ NLP_ambistory-project/
 
 ## Setup Instructions
 
-Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/aishika-dev/NLP_ambistory-project.git
 cd NLP_ambistory-project
 
-Install the required dependencies:
+**Install the required dependencies:**
 
 pip install -r requirements.txt
 
-The main dependency used in this project is:
+**The main dependency used in this project is:**
 
 scikit-learn
 Running the Prediction Script
 
-The prediction script follows the required coding standard:
+**The prediction script follows the required coding standard:**
 
 python predict.py <input_json> <output_jsonl>
 
