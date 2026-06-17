@@ -25,11 +25,9 @@ The text fields are combined into one input string:
 
 precontext + sentence + ending + judged_meaning + example_sentence
 
-Then:
-
-TF-IDF converts the text into numerical features.
+Then, TF-IDF converts the text into numerical features.
 Ridge Regression learns to predict the average human plausibility score.
-The predicted score is clipped to the range 1–5 and rounded to an integer.
+The predicted score is clipped to the range 1-5 and rounded to an integer.
 Predictions are saved in JSONL format.
 
 This approach is lightweight, runs locally, and does not require external APIs.
