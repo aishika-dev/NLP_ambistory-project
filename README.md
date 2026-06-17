@@ -19,7 +19,7 @@ The system predicts a score between 1 and 5 for each input sample.
 
 This project implements a simple supervised regression baseline:
 
-TF-IDF + Ridge Regression
+**TF-IDF + Ridge Regression**
 
 The text fields are combined into one input string:
 
